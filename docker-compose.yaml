@@ -1,0 +1,9 @@
+version: "3"
+
+services:
+  ubuntu-session:
+    image: "ubuntu-session"
+    container_name: linux-session
+    restart: "always"
+    volumes:
+      - ./home:/home/etud
