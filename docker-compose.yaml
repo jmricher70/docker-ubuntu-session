@@ -3,6 +3,7 @@ version: "3"
 services:
   ubuntu-session:
     image: "ubuntu-session"
+    hostname: sciences
     container_name: linux-session
     restart: "always"
     volumes:
